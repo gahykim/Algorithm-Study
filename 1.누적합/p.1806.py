@@ -9,10 +9,9 @@ URL: https://www.acmicpc.net/problem/1806
 
 import sys
 input = sys.stdin.readline
-# n,S = map(int, input().split())
-# numbers = list(map(int, input().split()))
-n,S = 10, 15
-numbers = [5, 1, 3, 5, 10, 7, 4, 9, 2, 8]
+n,S = map(int, input().split())
+numbers = list(map(int, input().split()))
+
 left, right = 0,0
 sum_value = 0
 min_length = sys.maxsize
